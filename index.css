@@ -1,0 +1,88 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: black;
+  color: wheat;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid whitesmoke
+}
+a{
+  color: wheat;
+}
+.CH{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img{
+  z-index: -2;
+  height: 520px;
+  width: 360px;
+  
+}
+.buttonsCategory{
+  display: flex;
+  justify-content: space-evenly;
+}
+.prev,.next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  position: relative;
+  top: 85px;
+}
+.VM{
+display: flex;
+flex-direction: column;
+}
+.filteredBooks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  overflow-y:auto ;
+}
+.filteredBook{
+display: flex;
+flex-direction: column;
+border: 2px solid whitesmoke;
+border-radius: 8px;
+overflow: hidden;
+width: 300px;
+height: 480px;
+}
+.filteredBook img{
+  padding: 10px;
+  width: 280px;
+  height: 200px;
+}
+.bookDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px;
+  border: 2px solid wheat;
+  border-radius: 28px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.formstyle{
+  width: 220px;
+  position: relative;
+  left: 495px;
+  height: 22px;
+}
+.headings{
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+}
